@@ -78,4 +78,5 @@ Inside of this file, let's use `.each` to iterate through the Star Wars JSON dat
 Save the file and refresh your browser. You should now see all 10 names printed in a list.
 
 HOORAY! WE DID IT!
+
 ![](https://media1.tenor.com/images/05a7505c225710ad1b77bc4caf7cd0bf/tenor.gif?itemid=5502996)
