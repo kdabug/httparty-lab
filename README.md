@@ -80,3 +80,19 @@ Save the file and refresh your browser. You should now see all 10 names printed 
 HOORAY! WE DID IT!
 
 ![](https://media1.tenor.com/images/05a7505c225710ad1b77bc4caf7cd0bf/tenor.gif?itemid=5502996)
+
+## Lab / HW
+Now it's your turn. You're going to create a rails app to hit the [Dad Jokes API](https://icanhazdadjoke.com/api). Make sure to do the following:
+
+1. Create a new Rails app. Since you'll be creating views in Rails with `html.erb`, make sure that you *do not* make your new rails app an API. Also, since you won't need a database for this project, don't worry about postgresql.
+1. Create a controller and method where you can do your HTTParty call. 
+1. Set up a route that matches up with your controller and method.
+1. Add the HTTParty gem to your gemfile and install it using the terminal.
+1. Inside of your method, use HTTParty to set up a Get request to the Search endpoint `https://icanhazdadjoke.com/search`. Save the response to a variable. *Note* you will need to add an Accept header to your request. 
+1. Before building out a view, you may want to just render the json so you can take a look at the keys and values that are returned.
+1. Set up a view folder and file and render *a list of dad jokes*. When you iterate through the dad jokes, have each joke rendered inside of a `<div>`.
+1. Open your `application.css` file in your `assets` folder and add some styles to your joke divs. Please at least do the following: 
+  - Make each joke div a box with a border.
+  - Give the text of each joke some padding.
+  - Center each joke with `text-align: Robert` (<-- see, I can do dad jokes too!)
+  - Use Flexbox or CSS grid to organize your joke boxes on the page.
