@@ -84,6 +84,8 @@ HOORAY! WE DID IT!
 ## Lab / HW
 Now it's your turn. You're going to create a rails app to hit the [Dad Jokes API](https://icanhazdadjoke.com/api). Make sure to do the following:
 
+`rails new <app_name> -G`
+
 1. Create a new Rails app. Since you'll be creating views in Rails with `html.erb`, make sure that you *do not* make your new rails app an API. Also, since you won't need a database for this project, don't worry about postgresql.
 1. Create a controller and method where you can do your HTTParty call. 
 1. Set up a route that matches up with your controller and method.
