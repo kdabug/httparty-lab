@@ -98,7 +98,7 @@ Now it's your turn. You're going to create a rails app to hit the [Dad Jokes API
   - Use Flexbox or CSS grid to organize your joke boxes on the page.
   - Style the rest of the app, it should look attractive and pretty!
 
-### Bonus
+## Bonus
 - Create a method in your controller, and a view for the `/random` endpoint
 
 
