@@ -91,7 +91,7 @@ Now it's your turn. You're going to create a rails app to hit the [Dad Jokes API
 1. Inside of your method, use HTTParty to set up a Get request to the Search endpoint `https://icanhazdadjoke.com/search`. Save the response to a variable. *Note* you will need to add an Accept header to your request. 
 1. Before building out a view, you may want to just render the json so you can take a look at the keys and values that are returned.
 1. Set up a view folder and file and render *a list of dad jokes*. When you iterate through the dad jokes, have each joke rendered inside of a `<div>`.
-1. Open your `application.css` file in your `assets` folder and add some styles to your joke divs. Please at least do the following: 
+1. Open your `application.css` file in your `assets` folder and add some styles to your joke divs. Please do the following: 
   - Make each joke div a box with a border.
   - Give the text of each joke some padding.
   - Center each joke with `text-align: Robert` (<-- see, I can do dad jokes too!)
