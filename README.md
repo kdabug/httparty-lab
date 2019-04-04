@@ -13,7 +13,7 @@ In the terminal, launch a new Rails app with `rails new httparty-practice`. Ther
 Instead, we're just going to dive right in. Let's start by making a controller.
 
 ## Creating a Controller
-So far, we've always made controllers that pair up with our data models; however, you can actually have a controller that isn't connected to any models or to a database. Simply create a new file in your controllers folder and call it `responses_controller.rb`. Create a ResponsesClass, make sure it inherits from `ApplicationController`, and set up a method called `test`. 
+So far, we've always made controllers that pair up with our data models; however, you can actually have a controller that isn't connected to any models or to a database. Simply create a new file in your controllers folder and call it `responses_controller.rb`. Create a ResponsesController, make sure it inherits from `ApplicationController`, and set up a method called `test`. 
 
 Inside of `test` just write `render json: {greeting: "hello"}` for the time being. The page should look like this: 
 
