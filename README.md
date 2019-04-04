@@ -97,3 +97,8 @@ Now it's your turn. You're going to create a rails app to hit the [Dad Jokes API
   - Center each joke with `text-align: Robert` (<-- see, I can do dad jokes too!)
   - Use Flexbox or CSS grid to organize your joke boxes on the page.
   - Style the rest of the app, it should look attractive and pretty!
+
+
+1. Work on your interview cheat sheet when you have finished.
+## Resources
+- [HTTParty on github](https://github.com/jnunemaker/httparty)
