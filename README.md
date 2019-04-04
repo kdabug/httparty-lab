@@ -101,7 +101,7 @@ Now it's your turn. You're going to create a rails app to hit the [Dad Jokes API
 ## Bonus
 - Create a method in your controller, and a view for the `/random` endpoint
 
-
+************
 #### Work on your interview cheat sheet when you have finished.
 ## Resources
 - [HTTParty on github](https://github.com/jnunemaker/httparty)
